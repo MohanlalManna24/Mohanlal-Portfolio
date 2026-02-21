@@ -1,0 +1,45 @@
+/* ─── Skills.css — companion styles for the Skill Map ─── */
+
+/* Recharts overrides */
+.recharts-polar-grid-concentric-polygon {
+  stroke: #c7d2fe;
+  stroke-opacity: 0.35;
+}
+
+.recharts-polar-angle-axis-tick-value {
+  font-size: 12px;
+  fill: #6b7280;
+}
+
+/* Glass-morphism card mixin — reusable via @apply is not needed;
+   everything lives in Tailwind utilities already.
+   This file is kept for Recharts SVG overrides only. */
+
+/* Subtle grid-line animation on load */
+@keyframes fadeGridIn {
+  from {
+    stroke-dashoffset: 200;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.recharts-polar-grid line {
+  stroke: #c7d2fe;
+  stroke-opacity: 0.3;
+  stroke-dasharray: 200;
+  animation: fadeGridIn 1.2s ease-out forwards;
+}
+
+/* Make the radar area feel smooth */
+.recharts-radar-polygon {
+  transition: d 0.8s ease;
+}
+
+/* Responsive font clamp for axis labels on small screens */
+@media (max-width: 640px) {
+  .recharts-polar-angle-axis-tick-value {
+    font-size: 9px;
+  }
+}
+

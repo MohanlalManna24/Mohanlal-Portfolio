@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'nativera';
+  src: url('./assets/fonts/nativera-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: gc-epicpro;
+  src: url('./assets/fonts/gc-epicpro.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: groote-regular;
+  src: url('./assets/fonts/groote-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: mySoul-regular;
+  src: url('./assets/fonts/mySoul-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: greatVibes;
+  src: url('./assets/fonts/greatVibes.ttf') format('truetype');
+}
+@theme {
+  --font-nativera: 'nativera', sans-serif;
+  --font-gc-epicpro: 'gc-epicpro', sans-serif;
+  --font-groote-regular: 'groote-regular', sans-serif;
+  --font-mySoul-regular: 'mySoul-regular', sans-serif;
+  --font-greatVibes: 'greatVibes', cursive;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.background {
+  position: relative;
+  width: 100%;
+  background: white;
+  background: radial-gradient(125% 125% at 50% 10%, #fff 40%, #63e 300%);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 50%;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(rgb(231, 191, 250), rgb(179, 231, 255));
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgb(109, 97, 245), rgb(176, 118, 243));
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(rgb(14, 9, 61), rgb(176, 118, 243));
+}
