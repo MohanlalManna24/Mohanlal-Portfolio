@@ -2,7 +2,7 @@ import React from "react";
 import { FaExternalLinkAlt, FaGithub, FaFolder } from "react-icons/fa";
 import { HiSparkles } from "react-icons/hi";
 import { motion } from "framer-motion"; 
-import Layout from "../layout/layout";
+import Layout from "../layout/Layout";
 
 const Projects = () => {
   // Featured Projects Data

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Layout from "../layout/layout";
+import Layout from "../layout/Layout";
 import { FaCode } from "react-icons/fa";
 import { VscThreeBars, VscClose } from "react-icons/vsc";
 

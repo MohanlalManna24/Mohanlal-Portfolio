@@ -3,7 +3,7 @@ import React from "react";
 import { RiShareBoxLine } from "react-icons/ri";
 import { FaFileAlt } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import Layout from "../layout/layout";
+import Layout from "../layout/Layout";
 import SocialMediaBtn from "../components/SocialMediaBtn";
 import profileImg from "../assets/mohanlal.jpg";
 import { motion } from "framer-motion";

@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { AiOutlineLoading } from "react-icons/ai";
 import { HiSparkles } from "react-icons/hi";
-import Layout from "../layout/layout";
+import Layout from "../layout/Layout";
 import SocialMediaBtn from "../components/SocialMediaBtn";
 import { motion } from "framer-motion";
 

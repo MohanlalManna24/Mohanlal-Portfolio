@@ -4,7 +4,7 @@ import { IoColorPalette } from "react-icons/io5";
 import { MdOutlineEngineering } from "react-icons/md";
 import { HiSparkles } from "react-icons/hi";
 import { motion } from "framer-motion";
-import Layout from "../layout/layout";
+import Layout from "../layout/Layout";
 
 const About = () => {
   return (
