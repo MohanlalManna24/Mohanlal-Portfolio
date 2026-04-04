@@ -19,13 +19,13 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "02",
+      title: "FITNATION --- Gym Website",
       description:
-        "Another project description. Highlight the technologies used and your role in the development. Explain the key features and what makes this project unique.",
-      technologies: ["Python", "HTML", "CSS"],
-      liveLink: "https://example.com",
-      sourceLink: "https://github.com",
-      image: "02",
+        "A modern, multi-page gym and fitness website built with React and Vite. The project is designed to present gym services, trainers, membership plans, and contact information in a clean, responsive interface.",
+      technologies: ["React.js", "Tailwind CSS"],
+      liveLink: "https://fitnationgym.vercel.app/",
+      sourceLink: "https://github.com/MohanlalManna24/gym-website",
+      image: "./gymWebPic.webp",
     },
   ];
 
