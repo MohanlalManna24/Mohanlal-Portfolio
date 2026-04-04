@@ -183,8 +183,8 @@ const Projects = () => {
               <motion.div
                 key={project.id}
                 className="group bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-100 hover:border-blue-200"
-                initial={{ opacity: 0.8, scaleX: 0.2 }}
-                whileInView={{ opacity: 1, scaleX: 1 }}
+                initial={{scaleX: 0.2 }}
+                whileInView={{scaleX: 1 }}
                 transition={{ duration: 0.3 }}
                 viewport={{ once: true }}
               >
